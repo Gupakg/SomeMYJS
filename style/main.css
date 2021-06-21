@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Open+Sans&family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    width: 100%;
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 50px;
+    color: #0088a2;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.logo img {
+    width: 170px;
+}
+.logo h1 {
+    font-size: 40px;
+    color: #0088a2;
+    font-family: Josefin Sans;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #808080;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0;
+    font-family: Open Sans;
+}
+.nav a:hover {
+    background-color: #0088a2;
+}
+.nav li {
+    list-style: none;
+    width: 100%;
+}
+
+/* ===================== */
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    position: relative;
+    flex: 0 1 30%;
+}
+
+.card img {
+    width: 100%;
+}
+.card p {
+    position: absolute;
+    width: 60%;
+    top: 43%;
+    left: 23%;
+    color: #fff;
+    text-align: center;
+}
+
+.app {
+    width: 100%;
+    padding: 20px 0;
+}
+.app h2 {
+    text-align: center;
+    margin: 0 0 25px;
+}
+.baner {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+.baner .video {
+    width: 100%;
+}
+.baner .play {
+    width: 80px;
+    position: absolute;
+    top: 44%;
+    left: 45%;
+}
+.fiveCards {
+    position: relative;
+    width: 80%;
+    margin: 50px auto 0;
+    height: 500px;
+}
+.fiveCards img {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+}
+.fiveCards img:nth-child(2) {
+    left: 20%;
+}
+.fiveCards img:nth-child(3) {
+    left: 40%;
+}
+.fiveCards img:nth-child(4) {
+    left: 60%;
+}
+.fiveCards img:nth-child(5) {
+    left: 80%;
+}
+.fiveCards img:nth-child(even) {
+    top: 5%;
+}
+.project p {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+.download {
+    padding: 20px 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 40px 0px;
+}
+.qr {
+    width: 250px;
+    height: 250px;
+}
+.android {
+    width: 300px;
+    height: 250px;
+}
+.download p {
+    width: 90%;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    background: #0088a2;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer h3 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Josefin Sans;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.social img {
+    width: 60px;
+    height: 60px;
+}
+.descr {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-left: 200px;
+    font-size: 20px;
+    color: #fff;
+}
+.contacts {
+}
+.adress {
+}
+.help {
+}
